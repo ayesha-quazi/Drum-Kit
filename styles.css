@@ -1,0 +1,83 @@
+body {
+  text-align: center;
+  background-color: #6d8eea;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #e5f2f6;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #752649;
+
+}
+
+footer {
+  color: #030303;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url(./images/tom1.png);
+}
+
+.a {
+  background-image: url(./images/tom2.png);
+}
+
+.s { 
+  background-image: url(./images/tom3.png);
+}
+
+.d {
+  background-image: url(./images/tom4.png);
+}
+
+.j {
+  background-image: url(./images/snare.png);
+}
+
+.k {
+  background-image: url(./images/crash.png);
+}
+
+.l {
+  background-image: url(./images/kick.png);
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/* 
+press helps in making shadow and transparency to whatever we add this to
+*/ .pressed {
+  box-shadow: 0 3px 4px 0 #75c9e6;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #7583aa;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #ef5d9c;
+  text-shadow: 3px 0 #4c90a7;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
